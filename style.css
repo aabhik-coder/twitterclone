@@ -132,3 +132,27 @@ footer a,p{
     margin-right: 15px;
     word-break: keep-all;
 }
+@media (max-width: 414px)
+{
+    .main{
+        margin-top:50px;
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .maintext{
+        font-size: 5rem;
+    }
+    .whitelogo
+    {
+        display: none;
+    }
+    .coverpicc{
+        width: 414px;
+    }
+    .signin{
+        margin-bottom: 30px;
+    }
+    footer{
+        width: 100%;
+    }
+}
