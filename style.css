@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Work Sans',sans-serif;
+}
+.main{
+    display:flex;
+    width:100vw;
+    height: 110vh;
+    
+}
+.coverpic{
+    width:100%;
+    background-color: blue;
+    position: relative;
+}       
+.coverpicc{
+width:72rem;
+height: 100%;
+}
+.whitelogo{
+    position: absolute;
+    top: 20rem;
+    left: 20rem;
+    height:30rem;
+ }
+ .maincontent{
+    width: 100%;
+    padding-top:5rem;
+    padding-left:5rem;
+ }
+ .mainlogo{
+    height:4rem;
+ }
+.maintext{
+    font-size: 6.8rem;
+    margin: 5rem 0 5rem 0;
+}
+.supporttext{
+    font-size:3.2rem ;
+    margin-bottom: 3rem;
+}
+.google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid rgb(208, 208, 208);
+    height: 40px;
+    width:290px;
+    border-radius: 50px;
+}
+.google p{
+    font-size: 14px;
+    color: rgb(97, 97, 97);
+}
+.googlelogo{
+    height: 30px;
+}
+.apple{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid rgb(208, 208, 208);
+    height: 40px;
+    width:290px;
+    border-radius: 50px;
+    margin-top:1rem;
+}
+.applelogo{
+    height: 24px;
+}
+.apple p{
+    font-size: 14px;
+    color: rgb(44, 44, 44);
+}
+.or{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-left: 35px;
+}
+hr{
+    width: 90px;
+    color: rgb(113, 113, 113);
+}
+.or p{
+    margin: 10px;
+    font-size: 1.5rem;
+}
+.signup{
+    height: 40px;
+    width:290px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(0, 104, 194);
+    color: white;
+    margin-bottom: 10px;
+
+}
+.signinn p{
+    margin-top: 80px;
+    font-size: 1.5rem;
+}
+.signin{
+    background-color: white;
+    border: 1px solid rgb(208, 208, 208);
+    height: 40px;
+    width:290px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+footer{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+footer a,p{
+    text-decoration: none;
+    color: rgb(86, 86, 86);
+    margin: 5px;
+    margin-right: 15px;
+    word-break: keep-all;
+}
