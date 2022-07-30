@@ -12,34 +12,35 @@ html{
     display:flex;
     width:100vw;
     height: 110vh;
-    
 }
 .coverpic{
     width:100%;
-    background-color: blue;
+    height: 100%;
     position: relative;
 }       
 .coverpicc{
-width:72rem;
+width:100%;
 height: 100%;
 }
 .whitelogo{
     position: absolute;
     top: 20rem;
-    left: 20rem;
-    height:30rem;
+    left: 12rem;
+    height:30vw;
  }
  .maincontent{
     width: 100%;
-    padding-top:5rem;
-    padding-left:5rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 2rem;
  }
  .mainlogo{
     height:4rem;
+    margin-bottom: 5rem;
  }
 .maintext{
     font-size: 6.8rem;
-    margin: 5rem 0 5rem 0;
+    margin: 0rem 0 5rem 0;
 }
 .supporttext{
     font-size:3.2rem ;
@@ -54,6 +55,7 @@ height: 100%;
     height: 40px;
     width:290px;
     border-radius: 50px;
+    cursor: pointer;
 }
 .google p{
     font-size: 14px;
@@ -72,6 +74,7 @@ height: 100%;
     width:290px;
     border-radius: 50px;
     margin-top:1rem;
+    cursor: pointer;
 }
 .applelogo{
     height: 24px;
@@ -103,6 +106,7 @@ hr{
     background-color: rgb(0, 104, 194);
     color: white;
     margin-bottom: 10px;
+    cursor: pointer;
 
 }
 .signinn p{
@@ -116,6 +120,8 @@ hr{
     width:290px;
     border-radius: 50px;
     margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
 footer{
     margin-top: 20px;
@@ -132,13 +138,22 @@ footer a,p{
     margin-right: 15px;
     word-break: keep-all;
 }
-@media (max-width: 414px)
+@media (max-width: 692px)
 {
     .main{
-        margin-top:50px;
         display:flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
+        margin-bottom: 40vh;
     }
+    .coverpic{
+        order:2;
+        margin-bottom: 50px;
+    }
+    .maincontent{
+        width: 100%;
+        padding-top:2rem;
+        padding-left:2rem;
+     }
     .maintext{
         font-size: 5rem;
     }
@@ -147,12 +162,14 @@ footer a,p{
         display: none;
     }
     .coverpicc{
-        width: 414px;
-    }
-    .signin{
-        margin-bottom: 30px;
-    }
-    footer{
         width: 100%;
     }
+    .signin{
+        margin-bottom:5rem;
+    }
+    footer{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
 }
