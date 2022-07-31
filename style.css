@@ -10,12 +10,14 @@ html{
 }
 .main{
     display:flex;
+    flex-direction: row-reverse;
     width:100vw;
-    height: 110vh;
+    height:fit-content;
+    padding-bottom: 2rem;
 }
 .coverpic{
     width:100%;
-    height: 100%;
+    height: stretch;
     position: relative;
 }       
 .coverpicc{
@@ -143,14 +145,12 @@ footer a,p{
     .main{
         display:flex;
         flex-direction: column;
-        margin-bottom: 40vh;
+        margin-bottom: 10px;
+        height: fit-content;
+        overflow: hidden;
     }
-    .coverpic{
-        order:2;
-        margin-bottom: 50px;
-    }
+
     .maincontent{
-        width: 100%;
         padding-top:2rem;
         padding-left:2rem;
      }
@@ -163,11 +163,13 @@ footer a,p{
     }
     .coverpicc{
         width: 100%;
+        margin-bottom: 10px;
     }
     .signin{
         margin-bottom:5rem;
     }
     footer{
+        margin-top: 10px;
         margin-bottom: 10px;
         width: 100%;
     }
